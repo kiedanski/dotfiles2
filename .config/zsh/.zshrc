@@ -27,6 +27,7 @@ source_if_exists () {
 ### ---- plugins --------
 source $ZSH/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 source $ZSH/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /Users/diegokiedanski/.config/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 fpath=($ZSH/plugins/zsh-completions/src $fpath)
 #################
 
