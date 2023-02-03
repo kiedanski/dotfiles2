@@ -1,2 +1,12 @@
+# Enable dotfile configurations
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-alias l="ls -lah --color=auto"
+
+# Listing files
+alias la="ls -lah --color=auto"
+alias l="ls --color=auto"
+
+# Tmux
+alias tmux='TERM=xterm-256color tmux -f "$XDG_CONFIG_HOME"/tmux/tmux.conf'
+
+# Intel compatible
+alias ibrew='arch -x86_64 /usr/local/bin/brew'
