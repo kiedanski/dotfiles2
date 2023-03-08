@@ -10,3 +10,17 @@ alias tmux='TERM=xterm-256color tmux -f "$XDG_CONFIG_HOME"/tmux/tmux.conf'
 
 # Intel compatible
 alias ibrew='arch -x86_64 /usr/local/bin/brew'
+
+# Nvim always
+alias v="nvim"
+alias vim="nvim"
+
+# Python dev
+alias venv="source .venv/bin/activate"
+
+alias ..="cd .."
+alias ...="cd ..."
+alias cfg="cd $XDG_CONFIG_HOME"
+
+# alias aws='docker run --rm -ti -v ~/.aws:/root/.aws -v $(pwd):/aws amazon/aws-cli'
+

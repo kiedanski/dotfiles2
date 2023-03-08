@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# If using pip
+command -v pip >/dev/null 2>&1 && pip install python-lsp-server pyright jedi-language-server
+
+

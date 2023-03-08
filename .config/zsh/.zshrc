@@ -1,5 +1,8 @@
+export PATH="$PATH:$HOME/.cargo/bin:$HOME/.local/bin:$HOME/.emacs.d/bin"
 # XDG default paths
 export XDG_CONFIG_HOME="$HOME/.config"
+
+export NODE_EXTRA_CA_CERTS='/Users/diegokiedanski/Downloads/ca.crt'
 
 # ZSH directory
 export ZSH="$XDG_CONFIG_HOME/zsh"
@@ -39,4 +42,5 @@ source_if_exists "$XDG_CONFIG_HOME/alias"
 eval "$(starship init zsh)"
 
 
-
+# export MPLBACKEND="module://itermplot"
+eval "$(direnv hook zsh)"
