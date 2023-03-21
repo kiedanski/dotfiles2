@@ -24,3 +24,8 @@ alias cfg="cd $XDG_CONFIG_HOME"
 
 # alias aws='docker run --rm -ti -v ~/.aws:/root/.aws -v $(pwd):/aws amazon/aws-cli'
 
+alias src="source $HOME/.config/zsh/.zshrc"
+
+
+alias cld="eval cd $ICLOUD_DIR"
+alias cfh="cd $HOME/.config"

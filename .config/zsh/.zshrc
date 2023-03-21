@@ -1,4 +1,4 @@
-export PATH="$PATH:$HOME/.cargo/bin:$HOME/.local/bin:$HOME/.emacs.d/bin"
+export PATH="$PATH:$HOME/.cargo/bin:$HOME/.local/bin:$HOME/.emacs.d/bin:/usr/local/sbin"
 # XDG default paths
 export XDG_CONFIG_HOME="$HOME/.config"
 
@@ -44,3 +44,5 @@ eval "$(starship init zsh)"
 
 # export MPLBACKEND="module://itermplot"
 eval "$(direnv hook zsh)"
+
+export ICLOUD_DIR="$HOME"'/Library/Mobile\ Documents/com~apple~CloudDocs'
